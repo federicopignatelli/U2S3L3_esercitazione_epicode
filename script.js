@@ -19,8 +19,7 @@ fetch('https://striveschool-api.herokuapp.com/books',)
 
             //creo la card e la appendo alla colonna
             const card = document.createElement('div')
-            card.classList.add("card")
-            card.classList.add("mb-4")
+            card.classList.add("card", "mb-4")
             col.appendChild(card)
 
             //creo l'immagine che verrà messa nella card
